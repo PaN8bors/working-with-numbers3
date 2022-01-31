@@ -5,7 +5,7 @@ async function main() {
         const twoStr = await input.text('Enter another number');
         const option = await input.select ("Choose an option", ["max", "min"]);
         const oneNum = Number(oneStr),
-        twoNum = Number(twoStr);
+              twoNum = Number(twoStr);
 
         if ('max' == option) {
            console.log(Math.max(oneNum, twoNum));
