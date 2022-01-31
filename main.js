@@ -8,9 +8,9 @@ async function main() {
         twoNum = Number(twoStr);
 
         if ('max' == option) {
-        console.log(Math.max(oneNum, twoNum));
+           console.log(Math.max(oneNum, twoNum));
         } else {
-        console.log(Math.min(oneNum, twoNum));
+           console.log(Math.min(oneNum, twoNum));
         }
 }
 
